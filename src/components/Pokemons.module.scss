@@ -1,0 +1,11 @@
+.pokemons {
+  display: grid;
+  grid-template-columns: repeat(4, 550px);
+  grid-auto-rows: 400px;
+  gap: 200px;
+  padding: 100px;
+
+  img {
+    width: 550px;
+  }
+}
